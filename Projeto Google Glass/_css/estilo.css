@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap');
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+table#tabelaspec td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+}
+
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 13pt;
+    font-wight: bolder;
+}
+
+table#tabelaspec caption span#data {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+@font-face {
+    font-family: Bubblegum;
+    src: url();
+}
+
+header > h1{
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
